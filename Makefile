@@ -1,5 +1,5 @@
 CC=gcc
-AR=ar
+
 FLAGS= -Wall -g
 
 all: frequency
