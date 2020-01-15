@@ -105,7 +105,7 @@ void print_word2(node* node, char* c,int level) {
 		c[level-1] = '\0';
 	strncat(c, &node->letter, 1);
 	if (node->is_word == TRUE) {
-		printf("%s %ld\n", c, node->count);
+		printf("%s\t%ld\n", c, node->count);
 		
 	}
 	
@@ -140,7 +140,7 @@ void print_word_rev2(node* node, char* c, int level) {
 	}
 	strncat(c, &node->letter, 1);
 	if (node->is_word == TRUE) {
-		printf("%s %ld\n", c, node->count);
+		printf("%s\t%ld\n", c, node->count);
 
 	}
 
